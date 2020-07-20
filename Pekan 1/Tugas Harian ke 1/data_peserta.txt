@@ -1,0 +1,6 @@
+Data Peserta Sanbercode Bootcamp ReactJS
+1. Nama: Ayu Agustina
+2. Email: digitradiart@gmail.com
+3. Sistem Operasi yang digunakan: Ubuntu LTS 20.04
+4. Akun GitHub: github.com/digitradiart
+5. Akun Telegram: t.me/digitradiart
