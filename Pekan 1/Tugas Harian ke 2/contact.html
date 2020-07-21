@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+        <link href="public/css/style.css" rel="stylesheet" type="text/css">
+        <style>
+            main {
+                line-height: 2;
+            }
+
+            #username, #email, textarea {
+                width: 60%;
+                padding: 12px 20px;
+                box-sizing: border-box;
+                border: 2px solid #ccc;
+                border-radius: 4px;
+                background-color: #f8f8f8;
+                font-size: 16px;
+                resize: none;    
+            }
+
+            #username, #email {
+                height: 40px;
+            }
+
+            textarea {
+                height: 100px;
+            }
+
+            #submit-button {
+                margin: 20px 0;
+                padding: 12px 24px;
+                background-color: blue;
+                color: white;
+                border: none;
+                border-radius: 5px;
+            }
+            #submit-button:active {
+                background-color: darkblue;
+                font-weight: bold;
+            }
+
+            a {
+                margin: 10px;
+                padding: 10px;
+                display: inline-block;
+            }
+
+            p {
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>Hubungi Kami</h1>
+            <p>
+                <b>Kantor: </b> di jalan belum jadi <br>
+                <b>Nomor Telepon: </b> 08XX-XXXX-XXXX <br>
+                <b>Email: </b> email@contoh.com <br>
+            </p> 
+
+            <form>
+                <h1>Kirimkan Pesan</h1>
+                <p><b>Nama</b></p>
+                <input type="text" id="username">
+
+                <p><b>Email</b></p>
+                <input type="email" id="email">
+
+                <p><b>Jenis Kelamin</b></p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Laki-laki</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Perempuan</label><br>
+
+                <p><b>Pesan Anda</b></p>
+                <textarea></textarea> <br>
+                <input type="submit" value="Kirim" id="submit-button">
+            </form>
+
+            <a href="index.html">Kembali ke Index</a>
+        </main>
+    </body>
+</html> 
