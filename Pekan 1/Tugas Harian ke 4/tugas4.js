@@ -1,7 +1,7 @@
 // TUGAS HARI KE 4 - LOOP & ARRAY
 /* SOAL 1 */
 console.log('\n---SOAL NOMOR SATU---');
-console.log('LOOPING PERTAMA: INCREMENT');
+console.log('\nLOOPING PERTAMA: INCREMENT');
 var angka1 = 1;
 while (angka1 < 21) {
     if (angka1 % 2 == 0) {
@@ -10,7 +10,7 @@ while (angka1 < 21) {
     angka1++; 
 }
 
-console.log('LOOPING KEDUA: DECREMENT');
+console.log('\nLOOPING KEDUA: DECREMENT');
 var angka2 = 21;
 while (angka2 > 1) {
     if (angka2 % 2 == 0) {
@@ -28,7 +28,7 @@ for(var number = 1; number < 21; number++) {
     } else if(number%2 == 0) { //genap
         console.log(`${number} - Berkualitas`); 
     } else {
-        console.log(`${number} - Santai`);
+        console.log(`${number} - Santai`); //ganjil dan bukan kelipatan 3
     }
 }
 
