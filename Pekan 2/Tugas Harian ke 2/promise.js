@@ -1,4 +1,4 @@
-// di file promise.js
+// Maaf mas, ini masih soal saja. Saya masih coba memahami, masih cari sumber belajar tamnbahan lagi , sejauh ini belum saya kerjakan karena belum paham
 function readBooksPromise (time, book) {
     console.log(`saya mulai membaca ${book.name}`)
     return new Promise( function (resolve, reject){

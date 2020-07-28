@@ -1,3 +1,4 @@
+// Maaf mas, ini masih soal saja. Saya masih coba memahami, masih cari sumber belajar tamnbahan lagi , sejauh ini belum saya kerjakan karena belum paham
 var readBooks = require('./callback.js')
  
 var books = [
