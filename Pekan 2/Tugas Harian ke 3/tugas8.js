@@ -36,9 +36,8 @@ var gabungKata = (kata1, kata2, kata3, kata4, kata5) => {
 console.log(gabungKata('saya', 'adalah','seorang','frontend','developer'))
 
 // SOAL 3
+console.log()
 console.log('---SOAL 3---')
-/*
-buatlah class Book yang didalamnya terdapat property name, totalPage, price. lalu buat class baru komik yang extends terhadap buku dan mempunyai property sendiri yaitu isColorful yang isinya true atau false*/
 
 class Book {
     constructor(name, totalPage, price) {
@@ -46,4 +45,21 @@ class Book {
         this.totalPage = totalPage
         this.price = price
     }
+    present() {
+        return `I have a ${this.name}.  It has ${this.totalPage} pages. Its price is ${this.price}`
+    }
 }
+
+class Komik extends Book {
+    constructor(isColorful) {
+        // super(name, totalPage, price);
+        super()
+        this.color = isColorful
+    }
+    show() {
+        return this.present() + ', it is a ' + this.color;
+      }
+}
+
+myBook = new Komik('Shincan', 29, 24000, true)
+console.log(myBook.show());
