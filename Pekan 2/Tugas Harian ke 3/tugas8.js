@@ -46,20 +46,20 @@ class Book {
         this.price = price
     }
     present() {
-        return `I have a ${this.name}.  It has ${this.totalPage} pages. Its price is ${this.price}`
+        return `I have a Komik, titled ${this.name}.  It has ${this.totalPage} pages. Its price is ${this.price}`
     }
 }
 
 class Komik extends Book {
-    constructor(isColorful) {
-        // super(name, totalPage, price);
-        super()
-        this.color = isColorful
+    constructor(name, totalPage, price, isColorful) {
+        super(name, totalPage, price);
+        this.isColorful = isColorful;
     }
     show() {
-        return this.present() + ', it is a ' + this.color;
-      }
+        return this.present() + ', Is a colorful book? ' + this.isColorful; // next coba sendiri, show pakai conditional (kalo true colorful, kalo false not colorful)
+    }
 }
 
-myBook = new Komik('Shincan', 29, 24000, true)
+const myBook = new Komik('Shincan', 29, 24000, true)
+console.log(myBook);
 console.log(myBook.show());
