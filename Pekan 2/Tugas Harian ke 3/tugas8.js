@@ -59,8 +59,8 @@ class Comic extends Book {
     //     return this.present() + ', Is a colorful book? ' + this.isColorful;
     // }
 }
-//const myBook = new Comic('Shincan', 29, 24000, true)
-const myBook = new Comic('Tsubasa', 20, 40000, false)
+const myBook = new Comic('Shincan', 29, 24000, true)
+//const myBook = new Comic('Tsubasa', 20, 40000, false)
 if (myBook.isColorful == true) {
     console.log(myBook.present() + ', it is a colorful comic.') 
 } else {
