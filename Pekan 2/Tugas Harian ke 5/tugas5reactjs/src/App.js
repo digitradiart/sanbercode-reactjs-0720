@@ -7,7 +7,7 @@ function App() {
       <form>
         <h1 align="center"><b>Form Pembelian Buah</b></h1>
 
-        <table border="0" cellspacing="10" width="500" align="center">
+        <table border="0" cellspacing="10" width="600" align="center">
           <tr>
             <td><b>Nama Pelanggan</b></td>
             <td><input type="text" name="nama"/></td>
